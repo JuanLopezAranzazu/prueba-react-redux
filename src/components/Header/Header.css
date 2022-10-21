@@ -1,0 +1,26 @@
+.container-header {
+  background-color: #1e5372;
+  color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2020;
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+}
+
+.header {
+  height: 60px;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-options {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
